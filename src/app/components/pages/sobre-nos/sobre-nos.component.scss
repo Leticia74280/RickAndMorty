@@ -1,0 +1,17 @@
+.card-container{
+    display: grid;
+    justify-content: center;
+    padding: 30px;
+    grid-template-columns: repeat(auto-fit, 300px);
+    grid-gap: 30px;
+}
+.card{
+    height: 520px;
+    width: 300px;
+    background: white;
+    border-radius: 10px;
+}
+
+.titulo{
+    color: rgb(0, 110, 255);
+}
